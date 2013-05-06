@@ -39,19 +39,27 @@ hr {
 	border:				1px solid;
 	border-color:		#aaa transparent #fff;
 }
+header {
+	margin: 5rem auto;
+}
 
 
 /* 1. ID & Class */
 #heading {
-	color: #222;
-	font-size: 5rem;
+	color: #333;
+	margin-bottom: -1rem;
+	font-size: 4rem;
 	font-weight: 400;
-	font-family: Play;
-	font-style: italic;
+	font-family: Raleway;
 	text-align: center;
+	text-shadow: 0 0 1px #999;
 }
-#heading span {
+#subheading {
 	color: #c00;
-	font-family: Bilbo;
+	font-family: Play;
 	font-style: normal;
+	letter-spacing: 6px;
+	word-spacing: 7px;
+	font-weight: 400;
+	text-align: center;
 }
