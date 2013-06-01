@@ -46,13 +46,15 @@ header {
 
 /* 1. ID & Class */
 #heading {
-	color:				#333;
 	margin-bottom:		-1rem;
 	font-size:			4rem;
 	font-weight:		400;
 	font-family:		Raleway;
 	text-align:			center;
 	text-shadow:		0 0 1px #999;
+}
+#heading a {
+	color:				#333;
 }
 #subheading {
 	color:				#c00;
@@ -63,6 +65,19 @@ header {
 	font-weight:		400;
 	text-align:			center;
 }
+#copyleft {
+	text-align:			center;
+	font-size:			0.8rem;
+	font-weight:		normal;
+	font-family:		Sans-serif;
+}
+#copyleft span {
+	font-weight:		bold;
+	display:			inline-block;
+	-webkit-transform:	scaleX(-1);
+	transform:			scaleX(-1);
+}
+#copyleft a { color: #c44; }
 .group {
 	width:				800px;
 	margin:				2rem auto;
@@ -86,7 +101,7 @@ header {
 	float:				right;
 	display:			block;
 	height:				2.5rem;
-	padding:			0 1rem;
+	padding:			0 0.5rem;
 	line-height:		2.5rem;
 	font-size:			1.2rem;
 	font-family:		Play;
@@ -101,6 +116,8 @@ header {
 .warn { color: #f60; }
 
 /* 2. Pseudoclass */
+#heading a:hover { text-shadow: 0 0 2px #333; }
+#copyleft a:hover { color: #422; }
 .unit:not(:last-child) { margin-bottom: 0.8rem; }
 .portal:hover {
 	box-shadow: inset 0 0 0 1px #def;
